@@ -1,0 +1,38 @@
+.celebration-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cake {
+  font-size: 120px;
+  animation: bounce 2s infinite;
+}
+
+.birthday-text {
+  font-size: 60px;
+  text-shadow: 0 0 20px white;
+}
+
+.fireworks {
+  margin-top: 20px;
+  font-size: 40px;
+  animation: sparkle 1s infinite alternate;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes sparkle {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}

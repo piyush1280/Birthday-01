@@ -1,0 +1,19 @@
+.timeline-page {
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.timeline-card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
